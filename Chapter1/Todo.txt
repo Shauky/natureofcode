@@ -1,9 +1,34 @@
 Todo.txt
+
 *** Note: Building in Sublime text assumes that there is only one 
 active build file in each folder. 
 
-For chapter One this means that when building any new file, you might have to uncomment the previous file.
+For chapter One this means that when building any new file, you might have to uncomment the 'draw(){}' section in the previous file.
 
+To prepare a build file for the active folder. Include these settings universally. Folder structure goes like this. 
+  Chapter1
+     - Chapter1.pde     //this should be the same name as the folder.
+
+ Inside Chapter1.pde include;
+
+ public void settings() {
+  size(640, 240);
+  } 
+
+
+void setup(){
+  // randomCounts = new int[20];         //this is for the second file
+  // w = new Walker();                   // this one is the walker
+   background(255);
+
+ }
+
+Then, you only need to include the draw settings and run in the particular file that you are working on.
+
+
+For Hangouts session 2 we read the Chapter and implemented the Walker class with more random magic.
+
+Then we went ahead and wrote a random bar generator.
 
 - Chapter 1
  
@@ -16,6 +41,20 @@ Solve the Excercises
         Exercise I.1
 
 		Create a random walker that has a tendency to move down and to the right. (We’ll see the solution to this in the next sect
+
+
+
+
+
+--- End of session 2
+
+
+
+
+
+
+
+
 
 Notes.
 

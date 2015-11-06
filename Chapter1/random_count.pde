@@ -1,14 +1,5 @@
 int[] randomCounts;
 
-public void settings() {
-  size(640, 240);
-}
-
-
-void setup(){
-   randomCounts = new int[20];
-
-}
 
 void draw(){
 	background(255);
