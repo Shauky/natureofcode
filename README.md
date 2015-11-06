@@ -6,6 +6,9 @@ read the book Chapter by Chapter and try to implement the Code by yourself.
 
    You can read The Nature of Code [read NOC](http://natureofcode.com/book/ "Nature of Code") here. 
 
+   You can also find the Processing language reference at 
+   https://processing.org/reference/
+
 
 If you need help, the code for the book is available at 
 
