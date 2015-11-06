@@ -1,7 +1,14 @@
 Todo.txt
+*** Note: Building in Sublime text assumes that there is only one 
+active build file in each folder. 
+
+For chapter One this means that when building any new file, you might have to uncomment the previous file.
+
 
 - Chapter 1
+ 
  Read Chapter 1 and implement code.
+  
   - The Walker class
 
 Solve the Excercises
