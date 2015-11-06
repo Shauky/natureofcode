@@ -10,12 +10,6 @@ Solve the Excercises
 
 		Create a random walker that has a tendency to move down and to the right. (We’ll see the solution to this in the next sect
 
-
-
-
-
-
-
 Notes.
 
 Chapter 1 

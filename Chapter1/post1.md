@@ -1,0 +1,1 @@
+The Walker crawls pixel by edgy pixel across the screen. Surely, deliberately leaving a trail that looks like dark cracks on the canvas white screen. The walker is curious, and in its curiousity creates a painful art.
