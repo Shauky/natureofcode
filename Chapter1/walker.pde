@@ -1,3 +1,4 @@
+// Defining the walker class
 class Walker{
 	int x;
 	int y;
@@ -9,11 +10,11 @@ class Walker{
 
 
 void display() {
-	stroke(0);
-	point(x,y);
+	stroke(0);                   //This walker uses a stroke to go around the screen
+	point(x,y);                  //based on its x,y point and position
 }
 
-void step() {
+void step() {                         //Then it keeps taking this random step
 	int choice = int(random(4));       //0,1,2 or 3
     if (choice == 0) {
       x++;
@@ -29,15 +30,15 @@ void step() {
 }
 
 
-Walker w;
+Walker w;                     //Finally we call that class
 
 //This is new
-public void settings() {
+public void settings() {        //Add a default screen size
   size(640, 360);
 }
 
 
-void setup(){
+void setup(){                 //and run with the setup(), and draw() methods
 	w = new Walker();
 	background(255);
 }

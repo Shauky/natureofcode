@@ -1,0 +1,49 @@
+Todo.txt
+
+- Chapter 1
+ Read Chapter 1 and implement code.
+  - The Walker class
+
+Solve the Excercises
+        
+        Exercise I.1
+
+		Create a random walker that has a tendency to move down and to the right. (We’ll see the solution to this in the next sect
+
+
+
+
+
+
+
+Notes.
+
+Chapter 1 
+
+   I.2 The Random Walker Class
+      Example I.1: Traditional random walk
+      Example I.2: Random number distribution
+       
+        Exercise I.1
+
+		Create a random walker that has a tendency to move down and to the right. (We’ll see the solution to this in the next section.)
+
+   I.3 Probability and Non-Uniform Distributions
+   		Exercise I.2
+
+		What is the probability of drawing two aces in a row from a deck of fifty-two cards?
+
+		Exercise I.3
+
+		Create a random walker with dynamic probabilities. For example, can you give it a 50% chance of moving in the direction of the mouse?
+
+	I.4 A Normal Distribution of Random Numbers
+
+		Exercise I.4
+
+		Consider a simulation of paint splatter drawn as a collection of colored dots. Most of the paint clusters around a central location, but some dots do splatter out towards the edges. Can you use a normal distribution of random numbers to generate the locations of the dots? Can you also use a normal distribution of random numbers to generate a color palette?
+
+		Exercise I.5
+
+		A Gaussian random walk is defined as one in which the step size (how far the object moves in a given direction) is generated with a normal distribution. Implement this variation of our random walk.
+
